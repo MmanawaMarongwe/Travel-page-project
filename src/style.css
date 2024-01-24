@@ -54,33 +54,6 @@ main h1{
     font-size: 50px;
 }
 
-.more-h3{
-    margin-left: 35px;
-}
-
-.blyde-picture{
-    width: 400px;
-    height: 450px;
-    border-radius: 5px;
-}
-
-.grid-2-columns{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 100px
-}
-
-.text-centre{
-    text-align: center;
-}
-
-.about-grid{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
-    
-}
-
 footer{
     color: white;
     background-image: linear-gradient(
@@ -108,6 +81,37 @@ footer p{
     line-height: 24px;
     font-size: 15px;
 }
+
+
+
+
+.more-h3{
+    margin-left: 35px;
+}
+
+.blyde-picture{
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.grid-2-columns{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    
+}
+
 
 
 
@@ -183,7 +187,7 @@ footer p{
         margin: 5px auto;
         height: 350px;
     }
-
+x§
 
     .about-me, .about-web{
         margin: 0 32px;
