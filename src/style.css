@@ -45,39 +45,9 @@ header a{
     padding: 15px;
     font-size: 20px;
 }
-
-footer{
-    color: white;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.7),
-        rgba(0, 0, 0, 0.7)
-      ), url(../images/hero-bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer li{
-    list-style: none;
-}
-
-footer li a{
-    color: white;
-}
-
-footer h3{
-    font-weight: 800;
-    line-height: 30px;
-}
-
-footer p{
-    line-height: 24px;
-    font-size: 15px;
-}
-
 main{
-    margin: 100px 50px;
+    margin: 0 50px;
 }
-
 
 .about-grid{
     display: grid;
@@ -100,10 +70,53 @@ main{
     border-radius: 10px;
 }
 
-.main-grid{
+section .main-page,.secondary{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+
+}
+
+section .main-page{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 100px
+    grid-gap: 100px;
+}
+
+.secondary{
+    background: grey;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    color: white;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ), url(../images/hero-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}   
+    
+footer li a{
+    color: white;
+}
+
+footer h3{
+    font-weight: 800;
+    line-height: 30px;
+}
+
+footer p{
+    line-height: 24px;
+    font-size: 15px;
 }
 
 
@@ -131,7 +144,7 @@ main{
         margin: 0 10px;
     }
 
-    .main-grid{
+    .main-page{
         grid-template-columns: 1fr;
         grid-gap: 5px;
     }
@@ -139,14 +152,17 @@ main{
     .main-h1{
         font-size: 25px;
     }
-
+    .secondary{
+        padding: 5px 0;
+        margin: 0 10px;
+    }
     main p{
         font-size: 10px;
     }
 
     .blyde-picture{
         width: 300px;
-        height: 350px;
+        height: 300px;
     }
 
    
@@ -154,7 +170,6 @@ main{
         opacity: 0.8;
         padding: 60px 0;
         margin: 10px 10px;
-        padding: 5px;
     }
 
      .about-grid{
