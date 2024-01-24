@@ -83,12 +83,6 @@ footer p{
 }
 
 
-
-
-.more-h3{
-    margin-left: 35px;
-}
-
 .blyde-picture{
     width: 400px;
     height: 450px;
@@ -105,11 +99,20 @@ footer p{
     text-align: center;
 }
 
-.about-grid{
+.img-responsive{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+.about-grid-3-columns{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
     
+}
+
+.more-h3{
+    margin-left: 35px;
 }
 
 
