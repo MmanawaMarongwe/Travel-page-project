@@ -1,10 +1,12 @@
 body{
     font-family: 'IBM Plex Serif', serif;
+    background-color: #365640;
+    padding: 50px;
 }
 
 .container {
     max-width: 1400px;
-    margin: 0 50px;
+    margin: 0 15px;
   }
   
   header {
@@ -50,7 +52,9 @@ header a{
 }
 
 main{
-    margin: 100px 50px;
+    margin: 100px 25    px;
+    background-color: #F0F5EF;
+    padding: 50px;
 }
 
 main h1{
@@ -85,9 +89,16 @@ footer p{
     font-size: 15px;
 }
 
-.secondary{
-    margin-top: 50px;
+.secondary a{ 
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
+
+.secondary{
+    margin-top: 100px;
+}
+
 .grid{
     display: grid;
 }
@@ -113,18 +124,35 @@ footer p{
 }
 
 .img-responsive{
-    width: 250px;
-    height: 200px;
-    margin-top: 50px;
+    width: 340px;
+    height: 250px;
+    margin: 0 5px;
 }
 
 .card{
-    background: lightgray;
+    border-radius: 2px;
+    max-width: 350px;
+    background: #C2D2B1;
     padding: 10px 10px;
+    margin-top: 50px;
+}
+
+.card-text{
+    margin: 0 10px;
+}
+
+.destination-link{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 130px;
+    border-radius: 5px;
+
 }
 
 .about-grid-3-columns{
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2fr;
     grid-gap: 30px;
 }
 
