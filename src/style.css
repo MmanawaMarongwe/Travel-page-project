@@ -211,6 +211,11 @@ footer p{
         font-size: 15px;
     }
    
+    iframe{
+        width: 250px;   
+        padding: 5px;
+    }
+   
     footer{
         opacity: 0.8;
         padding: 60px 0;
@@ -247,16 +252,15 @@ footer p{
     }
 
     .grid-3-columns{
-        width: 300px;
-        height: 350px;
+        width: 250px;
         grid-template-columns: 1fr;
+        margin: 5px 10px;
         grid-gap: 5px;
     }
 
     .about-grid-3-columns{
-        width: 300px;
         grid-template-columns: 1fr;
-        grid-gap: 5px;
+
     }
 
     .grid-2-columns{
@@ -266,8 +270,9 @@ footer p{
     }
     
     .blyde-picture{
-        width: 300px;
-        height: 250px;
+        width: 250px;
+        height: 230px;
+        margin: 15px;
     }
     
 
@@ -275,9 +280,17 @@ footer p{
         display: none;
     }
 
+   
+
     .cards{
-        margin: 5px;
+        margin: 5px 10px;
     }
+
+    .destination-link{
+        font-size: 10px;
+        padding: 10px 100px;
+    }
+    
 
     .about-me, .about-web{
         margin: 0 32px;
