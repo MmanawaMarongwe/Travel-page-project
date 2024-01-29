@@ -53,7 +53,7 @@ header a{
 }
 
 main{
-        background-color: #F0F5EF;
+    background-color: #F0F5EF;
     padding: 50px;
 }
 
@@ -102,6 +102,7 @@ footer p{
 .cards{
     margin: 50px 100px;
 }
+
 .grid{
     display: grid;
 }
@@ -115,12 +116,12 @@ footer p{
 .grid-2-columns{
     margin: 0 100px;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 100px
+    grid-gap: 100px;
 }
 
 .grid-3-columns{
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px
+    grid-gap: 50px;
 }
 
 .text-center{
@@ -168,37 +169,56 @@ footer p{
 
 
 @media (max-width: 900px) {
-    .container{
-        margin: 0 20px;
+
+    body{
+        padding: 5px;
     }
 
+    .container{
+        margin: 0 5px;
+    }
+    
+    .learn-more-btn{
+        font-size: 10px;
+    }
+    
     header {
-        padding: 60px 0;
-        margin: auto 10px;
+        padding: 5px 0;
+        margin: 0 10px;
+        height: 300px;
     }
     header h1{
-        font-size: 25px;
+        font-size: 15px;
     }
     header h2{
-        font-size: 15px;
+        font-size: 12px;
     }
     header a{
         font-size: 10px;
     }
 
     main{
-        margin: 10px 5px;
+        padding: 1px;
+        margin: 5px 10px;
     }
 
+    main p{
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    main h1{
+        font-size: 15px;
+    }
+   
     footer{
         opacity: 0.8;
         padding: 60px 0;
-        margin: 10px 10px;
-        padding: 5px;
+        margin: auto 0;
     }
 
-    .about-grid-3-columns{
-        grid-template-columns: 1fr;
+    grid{
+        display: grid;
     }
 
     footer li a{
@@ -213,13 +233,12 @@ footer p{
         font-size: 10px;
     }
 
-    .grid-2-columns{
-        grid-template-columns: 1fr;
-        grid-gap: 5px;
+    section h2{
+        font-size: 12px;
     }
 
-    .main-h1{
-        font-size: 25px;
+    section h3{
+        font-size: 10px;
     }
 
     .secondary{
@@ -228,18 +247,36 @@ footer p{
     }
 
     .grid-3-columns{
+        width: 300px;
+        height: 350px;
         grid-template-columns: 1fr;
         grid-gap: 5px;
     }
-    main p{
-        font-size: 10px;
+
+    .about-grid-3-columns{
+        width: 300px;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
     }
 
+    .grid-2-columns{
+        grid-template-columns: 1fr;
+        margin: 5px 10px;
+        grid-gap: 10px;
+    }
+    
     .blyde-picture{
         width: 300px;
         height: 250px;
-        margin: 5px auto;
-        height: 350px;
+    }
+    
+
+    .img-responsive{
+        display: none;
+    }
+
+    .cards{
+        margin: 5px;
     }
 
     .about-me, .about-web{
